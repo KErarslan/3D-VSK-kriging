@@ -3,8 +3,7 @@
 Reproducible code accompanying:
 
 **Erarslan, K.** "3D Variogram Surface Kriging: A PSD-Consistent Covariance
-Framework for Anisotropic Ore Estimation." *Computers & Geosciences*
-(submitted).
+Framework for Anisotropic Ore Estimation."
 
 ## Overview
 
