@@ -44,8 +44,7 @@ predictive performance tracks each deposit's own anisotropy signature
 
 ```
 .
-├── notebooks/
-│   └── 3DVSK_LMR_full_pipeline_FINAL.ipynb   ← main reproducible notebook (run this)
+├── 3DSurfaceKrging.ipynb   ← main reproducible notebook (run this)
 ├── data/
 │   └── synthetic_seyitomer_generator.py
 ├── requirements.txt
