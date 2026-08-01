@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "3D-VSK: Four PSD-Consistent Covariance Formulations for Anisotropic Kriging"
+authors:
+  - family-names: "Erarslan"
+    given-names: "Kaan"
+    orcid: "https://orcid.org/0000-0002-1875-4009"
+    email: "kaan.erarslan@dpu.edu.tr"
+    affiliation: "Department of Mining Engineering, Kütahya Dumlupınar University"
+repository-code: "https://github.com/KErarslan/3D-VSK-kriging"
+url: "https://github.com/KErarslan/3D-VSK-kriging"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-01
+keywords:
+  - geostatistics
+  - kriging
+  - variogram
+  - anisotropy
+  - positive semi-definite
+  - covariance function
+  - mineral resource estimation
+  - mining engineering
+preferred-citation:
+  type: article
+  title: "3D Variogram Surface Kriging: Four PSD-Consistent Covariance Formulations for Anisotropic Ore and Coal Deposits"
+  authors:
+    - family-names: "Erarslan"
+      given-names: "Kaan"
+      orcid: "https://orcid.org/0000-0002-1875-4009"
+  journal: "Natural Resources Research"
+  status: submitted
+  year: 2026
+references:
+  - type: article
+    title: "Anisotropy models for spatial data"
+    authors:
+      - family-names: "Allard"
+        given-names: "Denis"
+      - family-names: "Senoussi"
+        given-names: "Rachid"
+      - family-names: "Porcu"
+        given-names: "Emilio"
+    journal: "Mathematical Geosciences"
+    volume: 48
+    start: 305
+    end: 328
+    year: 2016
+    doi: "10.1007/s11004-015-9594-x"
+  - type: conference-paper
+    title: "Three dimensional variogram modeling and kriging"
+    authors:
+      - family-names: "Erarslan"
+        given-names: "Kaan"
+    year: 2001
+    conference:
+      name: "29th International Symposium on Application of Computers and Operations Research in the Mineral Industries (APCOM 2001)"
