@@ -44,7 +44,7 @@ predictive performance tracks each deposit's own anisotropy signature
 
 ```
 .
-├── 3DSurfaceKrging.ipynb   ← main reproducible notebook (run this)
+├── 3DSurfaceKriging.ipynb            ← main reproducible notebook (run this)
 ├── data/
 │   └── synthetic_seyitomer_generator.py
 ├── requirements.txt
@@ -57,7 +57,7 @@ predictive performance tracks each deposit's own anisotropy signature
 
 The simplest way to run everything is via Google Colab:
 
-1. Open `notebooks/3DVSK_LMR_full_pipeline_FINAL.ipynb` in [Google Colab](https://colab.research.google.com/).
+1. Open `3DSurfaceKriging.ipynb` in [Google Colab](https://colab.research.google.com/).
 2. Run all cells top to bottom (Runtime → Run all).
 3. Figures, benchmark tables, and fitted-parameter files are written to
    `figures/`, `results/`, and `params/` in the Colab session storage.
@@ -68,7 +68,7 @@ To run locally instead:
 git clone https://github.com/KErarslan/3D-VSK-kriging.git
 cd 3D-VSK-kriging
 pip install -r requirements.txt
-jupyter notebook notebooks/3DVSK_LMR_full_pipeline_FINAL.ipynb
+jupyter notebook 3DSurfaceKriging.ipynb
 ```
 
 ## Data Availability
