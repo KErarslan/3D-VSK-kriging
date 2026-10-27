@@ -73,20 +73,18 @@ jupyter notebook 3DSurfaceKriging.ipynb
 
 ## Data Availability
 
-**Kalgoorlie (Au) dataset.** The Kalgoorlie Northern Zone drill hole data is
-included directly (hardcoded) in the notebook. It is derived from the
+**Kalgoorlie (Au) dataset.** The Kalgoorlie region drill hole data is
+included directly (hardcoded) in the notebook. It is inspired from the
 publicly available quarterly activities report of Riversgold Limited (2022),
 with modifications described in the manuscript (Section 3.1): the analysis
 is limited to 20 RC drill holes, and spatial coordinates and grades have
 been partially adjusted to preserve the spatial correlation structure while
 obscuring the absolute field positions and exact assay values.
 
-**Seyitömer (lignite) dataset.** The real Seyitömer-Aslanlı dataset was
-obtained during a site visit to a completed (closed) mining operation. It
-is **not** the author's data to redistribute publicly, and is therefore not
-included in this repository. It remains available from the corresponding
-author upon reasonable request, consistent with the manuscript's Data
-Availability Statement.
+Disclaimer
+The drilling data contained in this database has been synthetically generated or modified for scientific/algorithmic purposes—drawing inspiration from the geological parameters of orogenic gold deposits in the m-Kalgoorlie region—and does not represent actual, proprietary mining data from any company operating in the area.
+
+**Seyitömer (lignite) dataset.** Seyitömer town name "Seyitömer" is inspired, and the real Kütahya Coal Field dataset was obtained during a site visit to a completed (closed) mining operation. It is **not** the author's data to redistribute publicly and is therefore not included in this repository. It remains available from the corresponding author upon reasonable request, consistent with the manuscript's Data Availability Statement.
 
 To preserve full reproducibility of the methodology without disclosing this
 proprietary survey data, `data/synthetic_seyitomer_generator.py` generates a
