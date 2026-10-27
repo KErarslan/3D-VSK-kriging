@@ -73,7 +73,7 @@ jupyter notebook 3DSurfaceKriging.ipynb
 
 ## Data Availability
 
-**Kalgoorlie (Au) dataset.** The Kalgoorlie region drill hole data is
+**Kalgoorlie Orogenic (Au) dataset.** The Kalgoorlie Orogenic region drill hole data is
 included directly (hardcoded) in the notebook. It is inspired from the
 publicly available quarterly activities report of Riversgold Limited (2022),
 with modifications described in the manuscript (Section 3.1): the analysis
